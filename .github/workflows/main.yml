@@ -29,5 +29,5 @@ jobs:
       - name: Deploy to AWS App Runner
         run: |
           aws apprunner start-deployment \
-            --service-arn arn:aws:apprunner:ap-south-1:551561343088:service/app-runner-service \
-            --source-configuration file={imageUri=551561343088.dkr.ecr.ap-south-1.amazonaws.com/serverless-repo:latest}
+            --service-arn arn:aws:apprunner:ap-south-1:551561343088:service/app-runner-service
+          
